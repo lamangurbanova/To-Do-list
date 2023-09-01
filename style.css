@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2ECBE;
+   
+}
+
+body{
+    background-color: #5C8374 !important;
+}
+
+table thead tr th{
+    background-color: #85A389 !important;
+    color: #F2ECBE !important;
+    text-align: center;
+    border-bottom-width: 0 !important ;
+}
+
+table tbody tr td{
+    border-right:  1px solid #a9d2c3;
+    text-align: center;
+    border-bottom-width: 0 !important ;
+    
+}
+
+table > tbody > tr:nth-of-type(odd) > td{
+    background-color: #93B1A6;
+    color: #F2ECBE;
+    
+}
+
+.btnAdd{
+    font-weight: 600 !important;
+    color: white !important;
+    background-color: #93B1A6!important;
+}
+.btnAdd:hover{
+    background-color: #6e9d8b!important;
+}
+
+#inpSearch{
+    background-color: #93B1A6!important;
+    color: #F2ECBE;
+    border: none !important;
+    box-shadow: none;
+}
+#inpSearch::placeholder{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.modal-content{
+    background-color: #D67BFF !important;
+
+}
+i{
+    cursor: pointer;
+}
+.fa-trash-alt{
+    color: rgb(152, 6, 6);
+}
+.fa-edit{
+    color: #149aa8;
+}
+
+.done{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: green;
+    border-radius: 50%; 
+}
+.in-progress{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: yellowgreen;
+    border-radius: 50%; 
+}
+.ready{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%; 
+}
